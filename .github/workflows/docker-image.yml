@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: all
           push: true
-          tags: user/app:latest
+          tags: binnic/my-docker-images:lavalink
