@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v2
         
         with:
-          context: .
+          context: ./Lavalink/Dockerfile
           platforms: all
           push: true
           tags: binnic/my-docker-images:lavalink
