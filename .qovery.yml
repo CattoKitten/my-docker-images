@@ -1,0 +1,11 @@
+---
+application:
+  name: "my-docker-images"
+  project: "Project1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-my-docker-images"
+  routes:
+  - application_name: "my-docker-images"
+    paths:
+    - "/*"
